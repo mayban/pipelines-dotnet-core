@@ -18,6 +18,6 @@ steps:
 
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'iso-RM-type-connection'
+    azureSubscription: 'iso-RM-type-connection-default'
     appName: 'isodevops'
     package: $(System.DefaultWorkingDirectory)/**/*.zip 
